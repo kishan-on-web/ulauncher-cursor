@@ -1,0 +1,3 @@
+fuzzywuzzy
+python-Levenshtein
+ulauncher-api>=2.0.0

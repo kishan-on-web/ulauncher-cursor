@@ -1,0 +1,34 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Cursor Folder",
+  "description": "Allows you to open folders with Cursor AI editor",
+  "developer_name": "Your Name",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "cur_kw",
+      "type": "keyword",
+      "name": "Open with Cursor in folder",
+      "description": "Search folder to open in Cursor AI",
+      "default_value": "cur"
+    },
+    {
+      "id": "home_input",
+      "type": "input",
+      "name": "Cursor folder home",
+      "description": "Where the navigation starts (empty is the user directory)",
+      "default_value": ""
+    },
+    {
+      "id": "show_hidden",
+      "type": "select",
+      "name": "Show hidden folders",
+      "description": "Do you want to see hidden folders?",
+      "default_value": "False",
+      "options": ["False", "True"]
+    }
+  ]
+}

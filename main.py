@@ -19,7 +19,7 @@ class KeywordQueryEventListener(EventListener):
  
     def on_event(self, event, extension):
         # Get the keyword and query
-        keyword = event.get_keyword() == extension.preferences['cur_kw']
+        keyword = event.get_keyword()
         query = event.get_argument() or ""
  
         # Get preferences
